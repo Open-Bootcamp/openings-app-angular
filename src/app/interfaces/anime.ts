@@ -7,7 +7,7 @@ export interface Anime {
 
 }
 
-interface Opening {
+ export interface Opening {
   title: string,
   op: string
 }
