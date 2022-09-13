@@ -5,17 +5,13 @@ import { DataService } from 'src/app/services/data.service';
 @Component({
   selector: 'app-cards-container',
   templateUrl: './cards-container.component.html',
-  styleUrls: ['./cards-container.component.css']
+  styleUrls: ['./cards-container.component.css'],
 })
 export class CardsContainerComponent implements OnInit {
   animes: Anime[] = [];
-  constructor(private dataServise: DataService) { }
+  constructor(private dataServise: DataService) {}
 
   ngOnInit(): void {
-    this.dataServise.getData()
-    .subscribe(animes => this.animes = animes);
-
+    this.dataServise.getData().subscribe((animes) => (this.animes = animes));
   }
-
-
 }

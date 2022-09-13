@@ -8,7 +8,6 @@ import { ModalComponent } from './modal/modal.component';
 import { ViewBtnComponent } from './view-btn/view-btn.component';
 
 @NgModule({
-  // Voy a crear un componente
   declarations: [
     HeaderComponent,
     CardsContainerComponent,
@@ -18,13 +17,11 @@ import { ViewBtnComponent } from './view-btn/view-btn.component';
     ViewBtnComponent,
   ],
   imports: [CommonModule],
-  // Barrel exports to components
   exports: [
     HeaderComponent,
     CardsContainerComponent,
     FooterComponent,
     ModalComponent,
-    ViewBtnComponent,
   ],
 })
 export class ComponentsModule {}
