@@ -5,6 +5,7 @@ import { CardsContainerComponent } from './cards-container/cards-container.compo
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalComponent } from './modal/modal.component';
+import { ViewBtnComponent } from './view-btn/view-btn.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ModalComponent } from './modal/modal.component';
     CardComponent,
     FooterComponent,
     ModalComponent,
+    ViewBtnComponent,
   ],
   imports: [CommonModule],
   exports: [

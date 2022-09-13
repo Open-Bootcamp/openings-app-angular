@@ -4,10 +4,9 @@ export interface Anime {
   opName: string;
   imageSrc: string;
   openings: Opening[];
-
 }
 
-interface Opening {
-  title: string,
-  op: string
+export interface Opening {
+  title: string;
+  op: string;
 }

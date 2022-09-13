@@ -1,1 +1,4 @@
-<p class="h-screen">cards-container works!</p>
+<section class="my-6 mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-7 px-3">
+  <app-card *ngFor="let anime of animes" [anime]="anime"
+    class="flex h-48 w-full max-w-lg flex-col overflow-hidden rounded-md contrast-125"></app-card>
+</section>
